@@ -5,7 +5,7 @@ test("adds 1 + 2 to equal 3", () => {
 });
 
 describe("These are my class tests", () => {
-  let testPerson;
+  let testPerson: Person;
   beforeEach(() => {
     testPerson = new Person("barry", 19);
   });
