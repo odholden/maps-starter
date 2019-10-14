@@ -1,2 +1,6 @@
-body {
-  background: red; }
+#map {
+  display: block;
+  margin: 40px auto;
+  border: 2px solid black;
+  height: 300px;
+  width: 500px; }

@@ -1,5 +1,5 @@
-import { Person, sum } from './sums/sum';
+import { ILocation, initMap } from './maps/maps';
 
-const ollie: Person = new Person("Ollie", 56);
-console.log(`Wow, Ollie is only ${ollie.age}`);
-console.log(sum(50, 3));
+const uluru: ILocation = {lat: -25.344, lng: 131.036};
+
+initMap(uluru);

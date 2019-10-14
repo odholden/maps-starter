@@ -22,5 +22,8 @@
   "jest": {
     "testEnvironment": "node",
     "preset": "ts-jest"
+  },
+  "dependencies": {
+    "@types/googlemaps": "^3.37.7"
   }
 }
