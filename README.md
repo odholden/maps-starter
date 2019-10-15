@@ -1,11 +1,11 @@
-# testing-sandbox
+# Maps Starter
 
-A repo containing basic Jest config practise simple unit tests on functions and classes in JavaScript and Typescript.
+## Notes on build
 
-##Installation##
+The same Typescript starter you already have, with the following added: 
+ - `@types/googlemaps` package gives us access to the google types, such as google.maps.Map and google.maps.Marker
+ - `index.d.ts` file declares googlemaps as a module, because it isn't one out of the box. Don't worry about this one - it's purely to avoid an annoying squiggly line and could be omitted.
 
-Clone down and yarn install
+## Testing
 
-###Running the tests###
-
-`yarn run test`
+This app interacts with the dom a lot, much like your other projects. Testing the google object would be extremely difficult as a result, and is probably not time-efficient. You could test other location generation or maths though!

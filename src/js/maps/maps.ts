@@ -6,6 +6,8 @@ export interface ILocation {
   lng: number
 }
 
+// Styles currently not included pending investigation
+
 export const initMap = (coordinates: ILocation): google.maps.Map => {
   var map: google.maps.Map = new google.maps.Map(
     document.getElementById('map'), 
