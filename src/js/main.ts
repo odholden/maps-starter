@@ -16,4 +16,7 @@ getOnePokemon(1).then((data) => {
         return ability.ability.name;
     })
     console.log(abilities);
+})
+.catch((error) => {
+    return console.log(error)
 });
